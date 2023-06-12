@@ -11,7 +11,7 @@ steps:
    uses: actions/checkout@v2
    
    -name: super-Linter
-    uses: github/superlinter@v4.9.5
+    uses: github/super-linter@v4.9.5
     env:
     DEFAULT_BRANCH: MAIN
     GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
